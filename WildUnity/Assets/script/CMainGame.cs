@@ -21,7 +21,7 @@ public class CMainGame : MonoBehaviour {
 		// Initialisation du peer
 		this.peer.ServerAddress = "54.194.106.36:4530";	//	Serveur sur le cloud Amazon Web Service. 
 		this.peer.Protocol = ExitGames.Client.Photon.ConnectionProtocol.Tcp;
-
+		//
 		// Etablissement de la connection...
 		this.peer.Connect ();
 	}
